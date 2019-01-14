@@ -18,7 +18,7 @@ html, body {
     justify-content: space-between;
 }
 
-.brand, .navlink {
+.brand, .navlink, .hamburgerMenu {
     text-transform: uppercase;
     color:#303137;
 
@@ -40,8 +40,26 @@ html, body {
     
 }
 
-.topnav .navlink {
+.topnav .navlink, .hamburgerMenu {
     text-decoration: none;
     padding-left: 20px;
     font-size: 20px;
+}
+
+.dropdownLink {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    ul.topnav li a.navlink {
+        display: none;
+    }
+
+    ul.topnav li.dropdownLink {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
 }
