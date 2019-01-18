@@ -8,13 +8,18 @@
 <body>
   <nav class="navbar">
     <div class="brand">Code<span class="sensei">Sensei</span></div>
-    <ul class="topnav">
+    <ul class="topnav" id="navbar-toggle">
       <li><a class="navlink" href="#">Home</a></li>
       <li><a class="navlink" href="#">Products</a></li>
       <li><a class="navlink" href="#">About Us</a></li>
       <li><a class="navlink" href="#">Contact Us</a></li>
-      <li class="dropdownLink"><a class="hamburgerMenu"  href="#">&#9776</li>
+      <li class="dropdownLink"><a onclick="toggleDropDown()" class="hamburgerMenu"  href="#">&#9776</li>
     </ul>
   </nav>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+  
 </body>
 </html>

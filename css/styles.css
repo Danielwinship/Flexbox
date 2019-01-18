@@ -62,4 +62,9 @@ html, body {
         right: 20px;
     }
 
+
+    ul.topnav.responsive li a.navlink {
+        display: block;
+    }
+
 }
